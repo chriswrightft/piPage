@@ -67,11 +67,11 @@ body{
 }
 
 .boxName{
-	font-size: 3vh;
+	font-size: 3vw;
 	grid-column: 1/4;
 }
 
 .boxNum{
-	font-size: 3vh;
+	font-size: 3vw;
 	grid-column: 4/5;
 }
