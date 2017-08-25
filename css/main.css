@@ -1,0 +1,23 @@
+*{
+	font-family: 'Open Sans', Arial, sans-serif;
+	box-sizing: inherit;
+	box-sizing: border-box;
+}
+
+h1 {	
+	font-size: 54px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	margin: 0;
+	margin-bottom: 5px;
+	color: white;
+}
+
+.body{
+	background-image: url("cdn.flashtalking.com/rhombus/latest/assets/images/backgrounds/hub-bg.png"), linear-gradient(to right, #374047 0%, #4a5258 50%);
+    background-size: cover, cover;
+    background-position: top, center;
+    overflow: hidden;
+}

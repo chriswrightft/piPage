@@ -1,0 +1,77 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+}
+
+body{
+	background-image: url("//cdn.flashtalking.com/rhombus/latest/assets/images/backgrounds/hub-bg.png"), linear-gradient(to right, #374047 0%, #4a5258 50%);
+    background-size: cover, cover;
+    background-position: top, center;
+    width: 100%;
+    height: 100%;
+    color: white;
+	overflow: hidden;
+	margin: 0;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.header{
+	background-color: #374047;
+	text-align: center;
+}
+
+.mainWrapper{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 6vh;
+}
+
+.box{
+	background-color: tomato;
+	background: linear-gradient(to right,  #8E76B5 0%,#8E76B5 75%,#9983BC 75%,#9983BC 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box1{
+	grid-column: 1/13;
+}
+.box2{
+	background: linear-gradient(to right,  #D11560 0%,#D11560 75%,#D62C70 75%,#D62C70 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	grid-column: 1/5;
+}
+.box3{
+	background: linear-gradient(to right,  #D11560 0%,#D11560 75%,#D62C70 75%,#D62C70 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	grid-column: 5/9;
+}
+.box4{
+	background: linear-gradient(to right,  #D11560 0%,#D11560 75%,#D62C70 75%,#D62C70 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	grid-column: 9/13;
+}
+.box5{
+	background: linear-gradient(to right,  #1771B9 0%,#1771B9 75%,#2E7FC0 75%,#2E7FC0 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	grid-column: 1/7;
+}
+.box6{
+	background: linear-gradient(to right,  #1771B9 0%,#1771B9 75%,#2E7FC0 75%,#2E7FC0 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	grid-column: 7/13;
+}
+
+.box div{
+	justify-self: center;
+	align-self: center;
+}
+
+.boxName{
+	font-size: 3vh;
+	grid-column: 1/4;
+}
+
+.boxNum{
+	font-size: 3vh;
+	grid-column: 4/5;
+}
